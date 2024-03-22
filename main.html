@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Quiz</title>
+
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <h1 class="title">Web Development - Interactive Quiz</h1>
+    <h3 class="quiz_desc">Welcome to your web development quiz. The quiz consists of web development related programming languages such as
+        HTML, CSS and JavaScript, with 10 questions. The mode of the quiz will be multiple choice. Take note, do not cheat. Good luck!
+    </h3>
+   <section> 
+    <div class="q1">
+        <p>1. What does HTML stands for?</p>
+        <button class="A" onclick="select1(this.className)">A. Hypertext Micro Language</button>
+        <button class="B" onclick="select1(this.className)">B. Hyperlink Text Markup Language</button>
+        <button class="C" onclick="select1(this.className)">C. Hypertext Markup Language</button>
+        <button class="D" onclick="select1(this.className)">D. Hypertext Modern Language</button>
+        <br><br>
+        <b id="choice_value">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q2">
+        <p>2. What is the main purpose of HTML?</p>
+        <button class="A" onclick="select2(this.className)">A. To design the structure of the website</button>
+        <button class="B" onclick="select2(this.className)">B. To create software applications</button>
+        <button class="C" onclick="select2(this.className)">C. To develop a functioning game</button>
+        <button class="D" onclick="select2(this.className)">D. To create and develop a functioning website for all users</button>
+        <br><br>
+        <b id="choice_value2">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q3">
+        <p>3. Which of the following programming languages designs the structure of the website?</p>
+        <button class="A" onclick="select3(this.className)">A. CSS</button>
+        <button class="B" onclick="select3(this.className)">B. JavaScript</button>
+        <button class="C" onclick="select3(this.className)">C. HTML</button>
+        <button class="D" onclick="select3(this.className)">D. PHP</button>
+        <br><br>
+        <b id="choice_value3">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q4">
+        <p>4. What does CSS stands for?</p>
+        <button class="A" onclick="select4(this.className)">A. Coding Spreadsheet</button>
+        <button class="B" onclick="select4(this.className)">B. Cascading Style Sheets</button>
+        <button class="C" onclick="select4(this.className)">C. Coding Style Sheets</button>
+        <button class="D" onclick="select4(this.className)">D. Computer Style Sheets</button>
+        <br><br>
+        <b id="choice_value4">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q5">
+        <p>5. A programmer wants to code their button to make it functionable. However, they are not sure what programming language to use.
+            What programming language will be suitable for coding functionable buttons?
+        </p>
+        <button class="A" onclick="select5(this.className)">A. CSS</button>
+        <button class="B" onclick="select5(this.className)">B. Python</button>
+        <button class="C" onclick="select5(this.className)">C. JavaScript</button>
+        <button class="D" onclick="select5(this.className)">D. Java</button>
+        <br><br>
+        <b id="choice_value5">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q6">
+        <p>6. What is the purpose of JavaScript for developing a website?
+        </p>
+        <button class="A" onclick="select6(this.className)">A. To add more interactivity in the site</button>
+        <button class="B" onclick="select6(this.className)">B. To design the website</button>
+        <button class="C" onclick="select6(this.className)">C. To make the website published</button>
+        <button class="D" onclick="select6(this.className)">D. Both A and B </button>
+        <br><br>
+        <b id="choice_value6">Selected choice:</b>
+    </div>
+    <hr class="separator">
+        <div class="q7">
+        <p>7. What is the file extension for JavaScript?
+        </p>
+        <button class="A" onclick="select7(this.className)">A. .script</button>
+        <button class="B" onclick="select7(this.className)">B. .js</button>
+        <button class="C" onclick="select7(this.className)">C. .java</button>
+        <button class="D" onclick="select7(this.className)">D. .html </button>
+        <br><br>
+        <b id="choice_value7">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q8">
+        <p>8. What HTML tag is used for creating a JavaScript code?
+        </p>
+        <button class="A" onclick="select8(this.className)">A. script tag </button>
+        <button class="B" onclick="select8(this.className)">B. javascript tag</button>
+        <button class="C" onclick="select8(this.className)">C. java tag</button>
+        <button class="D" onclick="select8(this.className)">D. code tag</button>
+        <br><br>
+        <b id="choice_value8">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q9">
+        <p>9. Which of the following possible reasons on why there's an error occuring on your HTML code?
+        </p>
+        <button class="A" onclick="select9(this.className)">A. Typo error</button>
+        <button class="B" onclick="select9(this.className)">B. Missing letter or incomplete code</button>
+        <button class="C" onclick="select9(this.className)">C. No closing tag</button>
+        <button class="D" onclick="select9(this.className)">D. All of the above</button>
+        <br><br>
+        <b id="choice_value9">Selected choice:</b>
+    </div>
+    <hr class="separator">
+    <div class="q10">
+        <p>10. What are tags with no closing tags called?
+        </p>
+        <button class="A" onclick="select10(this.className)">A. Opening Tag</button>
+        <button class="B" onclick="select10(this.className)">B. Non-closing tags</button>
+        <button class="C" onclick="select10(this.className)">C. Multipurpose tag</button>
+        <button class="D" onclick="select10(this.className)">D. Stand Alone Tag</button>
+        <br><br>
+        <b id="choice_value10">Selected choice:</b>
+    </div>
+    <button class="submit_button" onclick="addResults()">SUBMIT</button>
+    <button class="refresh" id="refresher" onclick="refreshPage()">RESET QUIZ</button>
+    
+   </section>
+    <script src="index.js">
+    </script>
+</body>
+</html>
